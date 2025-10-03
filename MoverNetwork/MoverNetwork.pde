@@ -1,8 +1,10 @@
+import processing.javafx.*;
+
 Mover[] movers;
-int numberOfMovers = 50;
+int numberOfMovers = 100;
 
 void setup(){
-  size(800,800);
+  size(800,800,P3D);
   movers = new Mover[numberOfMovers];
   
   int i = 0;
